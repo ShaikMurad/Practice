@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer-Problem</title>
+    <style>
+        
+        .timer{
+            height: 250px;
+            width: 250px;
+            border: 3px solid red;
+            position: relative;
+            left: 40%;
+            text-align: center;
+            font-size: large;
+            background-color: aqua;
+            
+        }
+        .start:hover{
+            background-color: red;
+        }
+        .stop:hover{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="timer">
+        <p><label for="hours">00</label>:: <label for="mins">00</label>:: <label for="sec">00</label></p>
+        <button class="start">Start</button>
+        <button class="stop">Stop</button>
+    </div>
+    
+</body>
+<script src="./timer.js"></script>
+</html>
